@@ -1,0 +1,20 @@
+{
+  'app.name' => 'new name',
+  'app.version' => 123,
+  'user.somedeeperstruct' => {
+                               'a' => [
+                                        1,
+                                        2,
+                                        3
+                                      ],
+                               'b' => {
+                                        'c' => 'asd'
+                                      }
+                             },
+  'user.someotherval' => 90,
+  'user.somestruct' => [
+                         100,
+                         200
+                       ],
+  'user.someval' => 'ABCDEF'
+}

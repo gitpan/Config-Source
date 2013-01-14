@@ -1,0 +1,14 @@
+user.someval   ABCDEF
+<user.somedeeperstruct>
+    a   1
+    a   2
+    a   3
+    <b>
+        c   asd
+    </b>
+</user.somedeeperstruct>
+user.someotherval   TESTVAL
+user.somestruct   100
+user.somestruct   200
+app.version   123
+app.name   new name

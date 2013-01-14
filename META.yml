@@ -1,0 +1,26 @@
+---
+abstract: 'manage a configuration from multiple sources'
+author:
+  - 'Tarek Unger <taunger@cpan.org>'
+build_requires:
+  Test::Exception: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4002, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Config-Source
+provides:
+  Config::Source:
+    file: lib/Config/Source.pm
+    version: 0.01
+requires:
+  Data::Dumper: 0
+  Storable: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
