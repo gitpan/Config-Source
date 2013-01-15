@@ -57,6 +57,11 @@ $config2->add_source( { Config::General->new( $user_save )->getall } );
 # and getall
 is_deeply( $config->getall, $config2->getall, 'check after save' );
 
+# cleanup
+END {
+	unlink $user_save if -f $user_save;
+}
+
 # done
 done_testing();
 

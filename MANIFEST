@@ -18,11 +18,9 @@ t/14-clone-Data-Clone.t
 t/CloneTest.pm
 t/config/system
 t/config/user
-t/config/user_save
 Makefile.PL
 META.yml
 META.json
 t/20-other-Config-General.t
 t/config/Config-General-system
 t/config/Config-General-user
-t/config/Config-General-user_save
