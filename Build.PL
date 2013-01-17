@@ -1,4 +1,4 @@
-use 5.12.0;
+use 5.14.0;
 use strict;
 use warnings FATAL => 'all';
 use Module::Build;
@@ -22,6 +22,12 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup     => [ 'Config-Source-*' ],
     create_makefile_pl => 'traditional',
+
+    meta_merge     => {
+        resources => {
+            repository  => 'https://github.com/taunger/Config-Source'
+        }
+    },
 );
 
 $builder->create_build_script();

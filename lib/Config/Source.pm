@@ -1,6 +1,6 @@
 package Config::Source;
 
-use 5.12.0;
+use 5.14.0;
 use strict;
 use warnings FATAL => 'all';
 
@@ -12,16 +12,16 @@ Config::Source - manage a configuration from multiple sources
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
- use Config::Source;
-	
+    use Config::Source;
+
     my $config = Config::Source->new;
     $config->add_source( get_default_config() );
     
@@ -523,6 +523,10 @@ L<http://cpanratings.perl.org/d/Config-Source>
 =item * Search CPAN
 
 L<http://search.cpan.org/dist/Config-Source/>
+
+=item * Repository
+
+L<https://github.com/taunger/Config-Source>
 
 =back
 

@@ -1,4 +1,4 @@
-use 5.12.0;
+use 5.14.0;
 use warnings FATAL => 'all';
 
 use FindBin;
@@ -58,7 +58,7 @@ is_deeply( $config->getall, $config2->getall, 'check after save' );
 # cleanup
 END {
 	unlink $user_save if -f $user_save;
-}
+} 
 
 # done
 done_testing();
