@@ -17,11 +17,11 @@ name: Config-Source
 provides:
   Config::Source:
     file: lib/Config/Source.pm
-    version: 0.03
+    version: 0.04
 requires:
   Data::Dumper: 0
   Storable: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/taunger/Config-Source
-version: 0.03
+version: 0.04
