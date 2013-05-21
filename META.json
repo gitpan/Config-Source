@@ -4,7 +4,7 @@
       "Tarek Unger <taunger@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4002, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
    "provides" : {
       "Config::Source" : {
          "file" : "lib/Config/Source.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -47,5 +47,5 @@
          "url" : "https://github.com/taunger/Config-Source"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
